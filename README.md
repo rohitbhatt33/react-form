@@ -32,6 +32,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**************************************************************************************************************************************
+                                                           PLEASE READ ME 😁😁
+**************************************************************************************************************************************
+PLEASE INSTALL NODE MODULES BEFORE USING FILES
+FOLLOW  =>1. open the terminal and write the following command
+           2.npm i node-modules 
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
