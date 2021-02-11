@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align:-webkit-center ;
+  background-color: #30336b;
+  scroll-behavior: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.center{
+ width: 65%;
+ height: 60vh;
+ background-color: antiquewhite;
+ border-radius: 15px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;  
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background: #badc58;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+
+  text-align: center;
+  padding-left: -19vh;
+  margin-top: 10vw;
+  letter-spacing: 8px;
+  /*background-color: #30336b;
+  width: 100%;
+  color: white;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  font-size: 50px;*/
+}
+
+button{
+  min-height: 31px;
+  padding: 0 31px;
+  margin-top: 55px;
+  margin-right: -4px;
+  margin-top: 91px;
+margin-bottom: 16px;
+border-radius: 34%;
+border: dashed;
+cursor: pointer;
+animation-name: example;
+animation-duration: 5s;
+animation-delay: 1s;
+animation-iteration-count: 8;
+
+}
+.one{
+  color: #30336b;
+  background-color: chartreuse;
+  padding-left: 5px;
+}
+.lone{
+  color: aqua;
+  background-color: rgb(127, 35, 212);
+  margin-left: 64px;
+}
+div.vl{
+  white-space: normal;
+}
+#email{
+  margin-left: 5px;
+      width: 242px;
+  height: 32px;
+}
+#password{
+  margin-left: 5px; 
+  height: 32px;
+}
+#form{
+  background-color: blue;
+  margin-left:500px;
+  margin-right: 690px;
+  width: 330px;
+  height: 275;
+  margin-top: -95px;
+}
+.sht{
+  background-color: yellow;
+  font-size: large ;
+  font-family:cursive ;
+  margin-left:500px;
+  margin-right: 690px;
+  width: 330px;
+  height: 275;
+  animation: es 6s   1s 8 ;
+}
+@keyframes example{
+  from {border-radius:0}
+  to {border-radius:40%}
+}
+@keyframes es{
+  from {background-color: yellow}
+  to {background-color: springgreen;}
+}
